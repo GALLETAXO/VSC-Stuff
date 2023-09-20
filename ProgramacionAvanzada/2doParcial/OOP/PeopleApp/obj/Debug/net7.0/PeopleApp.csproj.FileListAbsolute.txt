@@ -1,0 +1,15 @@
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.AssemblyInfoInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.AssemblyInfo.cs
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\bin\Debug\net7.0\PeopleApp.exe
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\bin\Debug\net7.0\PeopleApp.deps.json
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\bin\Debug\net7.0\PeopleApp.runtimeconfig.json
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\bin\Debug\net7.0\PeopleApp.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\bin\Debug\net7.0\PeopleApp.pdb
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\refint\PeopleApp.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.pdb
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.genruntimeconfig.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\ref\PeopleApp.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.csproj.AssemblyReference.cache

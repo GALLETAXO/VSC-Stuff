@@ -1,0 +1,15 @@
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\bin\Debug\net7.0\handlingExeptions.exe
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\bin\Debug\net7.0\handlingExeptions.deps.json
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\bin\Debug\net7.0\handlingExeptions.runtimeconfig.json
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\bin\Debug\net7.0\handlingExeptions.dll
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\bin\Debug\net7.0\handlingExeptions.pdb
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.csproj.AssemblyReference.cache
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.AssemblyInfoInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.AssemblyInfo.cs
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.dll
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\refint\handlingExeptions.dll
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.pdb
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\handlingExeptions.genruntimeconfig.cache
+C:\Users\Usuario\ProgramacionAvanzada\1erParcial\handlingExeptions\obj\Debug\net7.0\ref\handlingExeptions.dll

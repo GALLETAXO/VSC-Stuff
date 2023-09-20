@@ -1,0 +1,10 @@
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\bin\Debug\netstandard2.0\Libraries.deps.json
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\bin\Debug\netstandard2.0\Libraries.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\bin\Debug\netstandard2.0\Libraries.pdb
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.csproj.AssemblyReference.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.AssemblyInfo.cs
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.dll
+C:\Users\Usuario\ProgramacionAvanzada\2doParcial\libraries\obj\Debug\netstandard2.0\Libraries.pdb
