@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\ProgramacionAvanzada\\2doParcial\\libraries\\Libraries.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\xd\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Libraries\\Libraries.csproj",
       "projectName": "Libraries",
-      "projectPath": "C:\\Users\\Usuario\\ProgramacionAvanzada\\2doParcial\\libraries\\Libraries.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\xd\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Libraries\\Libraries.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\ProgramacionAvanzada\\2doParcial\\libraries\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\xd\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Libraries\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -236,7 +236,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
