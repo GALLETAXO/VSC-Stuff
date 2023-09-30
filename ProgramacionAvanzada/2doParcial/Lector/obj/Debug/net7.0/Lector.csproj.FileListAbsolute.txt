@@ -1,0 +1,14 @@
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\bin\Debug\net7.0\Lector.exe
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\bin\Debug\net7.0\Lector.deps.json
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\bin\Debug\net7.0\Lector.runtimeconfig.json
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\bin\Debug\net7.0\Lector.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\bin\Debug\net7.0\Lector.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.AssemblyInfoInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.AssemblyInfo.cs
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.csproj.CoreCompileInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\refint\Lector.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\Lector.genruntimeconfig.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Lector\obj\Debug\net7.0\ref\Lector.dll
