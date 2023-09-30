@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Collections;
 using PA17F.shared;
 using static PA17F.shared.Person;
-//hola
 
 
 
