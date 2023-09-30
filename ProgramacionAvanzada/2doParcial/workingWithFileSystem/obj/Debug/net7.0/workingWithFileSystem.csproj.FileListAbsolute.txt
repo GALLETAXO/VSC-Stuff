@@ -1,0 +1,14 @@
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\bin\Debug\net7.0\workingWithFileSystem.exe
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\bin\Debug\net7.0\workingWithFileSystem.deps.json
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\bin\Debug\net7.0\workingWithFileSystem.runtimeconfig.json
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\bin\Debug\net7.0\workingWithFileSystem.dll
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\bin\Debug\net7.0\workingWithFileSystem.pdb
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.AssemblyInfoInputs.cache
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.AssemblyInfo.cs
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.csproj.CoreCompileInputs.cache
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.dll
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\refint\workingWithFileSystem.dll
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.pdb
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\workingWithFileSystem.genruntimeconfig.cache
+C:\Users\Gael\Desktop\xd\VSC-Stuff\ProgramacionAvanzada\2doParcial\workingWithFileSystem\obj\Debug\net7.0\ref\workingWithFileSystem.dll
