@@ -1,0 +1,11 @@
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\bin\Debug\net7.0\LectorLib.deps.json
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\bin\Debug\net7.0\LectorLib.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\bin\Debug\net7.0\LectorLib.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.AssemblyInfoInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.AssemblyInfo.cs
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.csproj.CoreCompileInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\refint\LectorLib.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\LectorLib.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\UnitTesting\LectorLib\obj\Debug\net7.0\ref\LectorLib.dll

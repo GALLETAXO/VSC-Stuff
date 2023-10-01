@@ -74,6 +74,7 @@ partial class Program
 
     static int Vocales( ref string texto, char letra) // en esta funcion realizamos la busqueda de las vocales repetidas
     {
+        
         int cont = 0, punto = 0;
 
         for(int i = 0; i < texto.Length; i++) // revisaremos cada espacion del texto que obtuvimos 
@@ -89,7 +90,7 @@ partial class Program
         if (cont > 0) // en caso de haber encontrado aun que sea 1 vocal 
         {
 
-            texto = texto.Insert(punto+1, cont.ToString()); // buscaremos la ultima vocal gracias a que guardamos su ubicacion y agregaremos la cuentaa un lado
+            texto = texto.Insert(punto+1, cont.ToString()); // buscaremos la ultima vocal gracias a que guardamos su ubicacion y agregaremos la cuenta a un lado
             texto = texto.Remove(punto, 1); // posteriormente eliminaremos la vocal 
             // puesto que es muy probable que utilicemos numeros de mas de 1 cifra, es mas conveniente insertar el numero a un lado conocido, para despues borrar la letra
             
@@ -149,14 +150,5 @@ partial class Program
 
 
     }
-
-
-    
-
-    
-
-    
-
-
 
 }
