@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PajOZsuTmRBuLZn8rK92ZPk/TLb7E7oGYlCFjPC7bjY/vpuZRuvLM7xlTk/7Di28CJ8uXOSG3/JFWdrDK2dCmQ==",
+  "dgSpecHash": "ydrcY29cGgptk4J9rarivXXdld386vfl4vA/QYhwBSRzusCU26FIlUaB8wwuBEIWiB8/3l6huqAGNdz9hsjuXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Libraries\\Libraries.csproj",
+  "projectFilePath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Libraries\\Libraries.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

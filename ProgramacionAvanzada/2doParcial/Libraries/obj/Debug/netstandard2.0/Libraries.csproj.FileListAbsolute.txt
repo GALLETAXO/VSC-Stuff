@@ -18,3 +18,13 @@ C:\Users\Usuario\Desktop\lol\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries
 C:\Users\Usuario\Desktop\lol\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\lol\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.dll
 C:\Users\Usuario\Desktop\lol\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\bin\Debug\netstandard2.0\Libraries.deps.json
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\bin\Debug\netstandard2.0\Libraries.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\bin\Debug\netstandard2.0\Libraries.pdb
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.csproj.AssemblyReference.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.AssemblyInfo.cs
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.dll
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\Libraries\obj\Debug\netstandard2.0\Libraries.pdb
