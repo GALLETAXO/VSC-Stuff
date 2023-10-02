@@ -29,6 +29,7 @@ partial class Program
             if(Path.Exists(textFile))// posteriormente revisaremos si ese nombre ingresa efectivamente existe 
             {
                 WriteLine("Archivo encontrado!!!");
+               
                 return textFile; // en caso positivo regresaremos la direccion completa del archivo de texto
 
             }
