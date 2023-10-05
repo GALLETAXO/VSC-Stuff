@@ -3,6 +3,9 @@ using PA17F.Shared;
 using static System.Environment;
 using static System.IO.Path;
 
+// alias
+using FastJson = System.Text.Json.JsonSerializer;
+
 List<Person> people = new()
 {
     new(30000M)
@@ -83,4 +86,52 @@ using (FileStream xmlLoad = File.Open(path,FileMode.Open))
         }
     }
 }
+#endregion
+
+#region serializar Json
+string jsonPath = Combine(CurrentDirectory, "peoble.json");
+using(StreamWriter jsonStream = File.CreateText(jsonPath))
+{
+
+    Newtcon
+
+    jss.Serialize(jsonStream, Stream);
+}
+
+
+
+ 
+
+#endregion
+
+#region deseriqalizar Json
+WriteLine("Deserialize Json");
+using(FileStream jsonload = File.Open(jsonPath, FileMode.Open))
+{
+    //deserialize
+    List<Person>? LoadedPeople = await FastJson.DeserializeAsync(utf8Json: jsonload,
+    returnType: typeof(List<Person>)) as List<Person>;
+
+    if(LoadedPeople is not null)
+    {
+        foreach(Person p in LoadedPeople)
+        {
+            WriteLine($"{p.Name} has {p.Children?.Count ?? 0}");
+        }
+    }
+}
+
+
+/*
+async task<int> GetLenghtString(string s)
+{
+
+
+    return await s.lenght;
+
+}
+*/
+
+
+
 #endregion
