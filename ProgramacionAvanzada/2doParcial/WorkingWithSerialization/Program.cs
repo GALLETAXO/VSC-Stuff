@@ -90,13 +90,7 @@ using (FileStream xmlLoad = File.Open(path,FileMode.Open))
 
 #region serializar Json
 string jsonPath = Combine(CurrentDirectory, "peoble.json");
-using(StreamWriter jsonStream = File.CreateText(jsonPath))
-{
 
-    Newtcon
-
-    jss.Serialize(jsonStream, Stream);
-}
 
 
 

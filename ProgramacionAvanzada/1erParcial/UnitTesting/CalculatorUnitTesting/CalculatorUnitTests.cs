@@ -98,8 +98,7 @@ public class CalculatorUnitTests
         [Fact]
     public void TestExAddNull() // aqui buscamos acceder a un arreglo de doubles, pero este es nulo 
     {
-       double[] x = null; // no hay nada :(
-       double y = 0;
+    
        
         Calculator calc = new();
 
@@ -110,8 +109,7 @@ public class CalculatorUnitTests
 
      
 
-         y  = calc.Add(x[0], x[1]); // Por lo que al tratar de acceder a alguna localidad de este arreglo, no dira que estamos haciendo referencia a un valor nulo
-      
+       
         
      
     };
@@ -126,8 +124,8 @@ public class CalculatorUnitTests
     [Fact]
     public void TestExAddFormatoIncorrecto() // aqui lo que buscamos es engañar vilmente a nuestra funcion 
     {
-       double a = double.MinValue, b = double.MinValue;
-       int  c = 0;
+       double a = double.MinValue;
+       
        
         Calculator calc = new();
 
@@ -155,7 +153,7 @@ public class CalculatorUnitTests
     [Fact]
     public void TestExDivNoHex() // En este error estamos haciendo un Parse con un formato no adecuado para lo que queremos 
     {
-       double a = 0, b = 0, c = 0; 
+       double a = 0, c = 0; 
        
         Calculator calc = new();
         string numeroNoHex = "777";
