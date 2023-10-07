@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlmacenista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Almacenista Name="Gael" Last-Name="Gamez" Password="f1c1592588411002af340cbaedd6fc33" />
+  <Almacenista Name="Emiliano" Last-Name="Rodriguez" Password="d93591bdf7860e1e4ee2fca799911215" />
+  <Almacenista Name="Uriel" Last-Name="Garcia" Password="674f3c2c1a8a6f90461e8a66fb5550ba" />
+  <Almacenista Name="Oscar" Last-Name="Penilla" Password="f38fef4c0e4988792723c29a0bd3ca98" />
+  <Almacenista Name="Ricardo" Last-Name="Solorzano" Password="e4100a4de6fb443d6f499f1736efb81a" />
+</ArrayOfAlmacenista>

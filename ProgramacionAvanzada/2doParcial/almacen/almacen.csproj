@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+  <Using Include = "System.Console" static= "true" />
+  <ProjectReference Include="../UnitTesting/AlmacenLib/AlmacenLib.csproj"/>
+  </ItemGroup>
+
 </Project>

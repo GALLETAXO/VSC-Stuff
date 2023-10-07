@@ -23,7 +23,7 @@ public class AlmacenUnitTesting
 
         bool expected = true;
 
-        Assert.Equal(actual,expected);
+        Assert.Equal(expected,actual);
    
 
     }
@@ -33,11 +33,11 @@ public class AlmacenUnitTesting
     public void Kill()
     {
         Funciones func = new();
-        bool actual = func.Login(log![0], log[2]);
-
+        
+        bool actual = func.Eliminar(log![0]);
         bool expected = true;
 
-        Assert.Equal(actual,expected);
+        Assert.Equal(expected,actual);
    
 
     }

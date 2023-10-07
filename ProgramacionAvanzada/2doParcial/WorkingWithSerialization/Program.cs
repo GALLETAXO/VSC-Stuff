@@ -65,6 +65,7 @@ using (FileStream stream = File.Create(path))
     // serialize the object
     xs.Serialize(stream, people);
 }
+
 WriteLine($"Written {new FileInfo(path).Length} bytes of XML to {path}");
 WriteLine();
 // READ

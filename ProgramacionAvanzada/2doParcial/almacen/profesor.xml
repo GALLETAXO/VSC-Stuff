@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProfesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profesor Nomina="9fe8593a8a330607d76796b35c64c600" Name="Javier" LastName="Mina lopez" Password="674f3c2c1a8a6f90461e8a66fb5550ba" Division="electro">
+    <Materias>
+      <string>progra</string>
+    </Materias>
+  </Profesor>
+</ArrayOfProfesor>

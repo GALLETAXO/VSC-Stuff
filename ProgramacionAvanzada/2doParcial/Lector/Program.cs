@@ -15,7 +15,7 @@ string AgregaTuTexto = Combine(GetFolderPath(SpecialFolder.MyDocuments), "Agrega
 WriteLine("Hola apreciado usuario, ve preparando un archivo de texto!!!");
 if(Path.Exists(AgregaTuTexto))
 {
-    WriteLine($" La carperta ay se habia creado anteriormente, esta en: {AgregaTuTexto}"); // No hace falta crear la carpeta puesto que ya existe
+    WriteLine($" La carperta ya se habia creado anteriormente, esta en: {AgregaTuTexto}"); // No hace falta crear la carpeta puesto que ya existe
 }
 else
 {
