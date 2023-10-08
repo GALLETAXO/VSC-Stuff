@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProfesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Profesor Nomina="9fe8593a8a330607d76796b35c64c600" Name="Javier" LastName="Mina lopez" Password="674f3c2c1a8a6f90461e8a66fb5550ba" Division="electro">
+  <Profesor Nomina="2568361" Name="Octavio" LastName="Lopez Trujillo" Password="5032005" Division="Electronica">
     <Materias>
-      <string>progra</string>
+      <string>Temas de Electronica</string>
+    </Materias>
+  </Profesor>
+  <Profesor Nomina="4649976" Name="Luis" LastName="Mario" Password="boo" Division="Paranomalidad">
+    <Materias>
+      <string>Caceria de Fantasmas</string>
+    </Materias>
+  </Profesor>
+  <Profesor Nomina="8369827" Name="Mario" LastName="Mario" Password="ravioli" Division="Fontaneria">
+    <Materias>
+      <string>Conduccion</string>
+    </Materias>
+  </Profesor>
+  <Profesor Nomina="2683692" Name="Gerardo" LastName="Ruiz Cabañas" Password="contraseña" Division="Programacion">
+    <Materias>
+      <string>Programacion Avanzada</string>
     </Materias>
   </Profesor>
 </ArrayOfProfesor>

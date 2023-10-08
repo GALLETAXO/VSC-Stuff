@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSalon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Salon Nombre="SLA">
+    <Grupo>
+      <string>7F1</string>
+      <string>4H1</string>
+      <string>5J1</string>
+    </Grupo>
+    <Profesor>
+      <string>Gerardo</string>
+      <string>Ochoa</string>
+    </Profesor>
+  </Salon>
+  <Salon Nombre="SLB">
+    <Grupo>
+      <string>6F1</string>
+      <string>3H1</string>
+      <string>4J1</string>
+    </Grupo>
+    <Profesor>
+      <string>Gerardo</string>
+      <string>Mario</string>
+    </Profesor>
+  </Salon>
+  <Salon Nombre="SLC">
+    <Grupo>
+      <string>5F1</string>
+      <string>2H1</string>
+      <string>3J1</string>
+    </Grupo>
+    <Profesor>
+      <string>Gerardo</string>
+      <string>Mario</string>
+      <string>Luis</string>
+    </Profesor>
+  </Salon>
+  <Salon Nombre="LE1">
+    <Grupo>
+      <string>4F1</string>
+      <string>1H1</string>
+      <string>2J1</string>
+    </Grupo>
+    <Profesor>
+      <string>Luis</string>
+      <string>Mario</string>
+    </Profesor>
+  </Salon>
+  <Salon Nombre="LE2">
+    <Grupo>
+      <string>3F1</string>
+      <string>5H1</string>
+      <string>1J1</string>
+    </Grupo>
+    <Profesor>
+      <string>Ochoa</string>
+      <string>Mario</string>
+      <string>Luis</string>
+    </Profesor>
+  </Salon>
+</ArrayOfSalon>

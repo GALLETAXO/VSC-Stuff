@@ -3,11 +3,23 @@ using AlmacenLib;
 using static System.Environment;
 using static System.IO.Path;
 using System.Xml.Serialization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Diagnostics.SymbolStore;
 
 Funciones func = new();
 bool validar = false;
 
-List<Profesor>? profesor = new();
+List<Profesor>? profesor = new()
+{
+    new("2683692","Gerardo","Ruiz Cabañas","contraseña","Programacion","Programacion Avanzada"),
+    new("9739726","Ochoa","Beltral Alatorre","p4sw0rD","Redes","Sistemas Operativos"),
+    new("2568361","Octavio","Lopez Trujillo","5032005","Electronica","Temas de Electronica"),
+    new("8369827","Mario","Mario","ravioli","Fontaneria","Conduccion"),
+    new("4649976","Luis","Mario","boo","Paranomalidad","Caceria de Fantasmas")
+
+
+};
 List<Almacenista>? almacenista = new()
 {
     new("Gael", "Gamez", func.GetMD5("1234")),
@@ -17,10 +29,38 @@ List<Almacenista>? almacenista = new()
     new("Ricardo", "Solorzano", func.GetMD5("fnaf"))
 
 };
+List<Alumno>? alumnos = new()
+{
+    new("20300703","Luis","Martinez Ferrer", "qwer", "SL1","SL2","SL3"),
+    new("20300892","Luisa","Hernandez Plaza", "rewq", "LE1","LE2","LE3"),
+    new("20300445","Fernanda","Gomez Lopez", "iuyt", "SLA","SLB","SLC"),
+    new("20300763","Alberto","De la Cruz Diaz", "tyui", "LE1","LE1","LE3"),
+    new("20100001","Antonio","Fox", "mipapaesfox", "SL1","SL2","SL3")
+};
+List<Salon>? salones = new()
+{
+    new("SLA", "7F1","4H1","5J1","Gerardo","Ochoa","Octavio"),
+    new("SLB", "6F1","3H1","4J1","Gerardo","Mario","Octavio"),
+    new("SLC", "5F1","2H1","3J1","Gerardo","Mario","Luis"),
+    new("LE1", "4F1","1H1","2J1","Luis","Mario","Octavio"),
+    new("LE2", "3F1","5H1","1J1","Ochoa","Mario","Luis")
+};
+
 
 XmlSerializer xsA = new(type: almacenista.GetType());
-
 XmlSerializer xsP = new(type: profesor.GetType());
+XmlSerializer xsH = new(type: alumnos.GetType());
+XmlSerializer xsS = new(type: salones.GetType());
+
+string JpathAlma = Combine(CurrentDirectory, "almacenista.json");
+File.WriteAllText(JpathAlma,JsonSerializer.Serialize(almacenista));
+string JpathAlumno = Combine(CurrentDirectory, "alumno.json");
+File.WriteAllText(JpathAlumno,JsonSerializer.Serialize(alumnos));
+string JpathProfesor = Combine(CurrentDirectory, "profesor.json");
+File.WriteAllText(JpathProfesor,JsonSerializer.Serialize(profesor));
+string JpathSalon = Combine(CurrentDirectory, "salon.json");
+File.WriteAllText(JpathSalon,JsonSerializer.Serialize(salones));
+
 
 
 
@@ -50,6 +90,53 @@ else
 
 }
 
+string pathAlumno = Combine(CurrentDirectory, "alumno.xml");
+if(Path.Exists(pathAlumno))
+{
+    
+    // lo deserializas
+    using (FileStream xmlLoad = File.Open(pathAlumno,FileMode.Open))
+    {
+       
+        alumnos = xsH.Deserialize(xmlLoad) as List<Alumno>;
+  
+    }
+
+}
+else
+{
+    using (FileStream stream = File.Create(pathAlumno))
+    {
+        
+        xsH.Serialize(stream, alumnos);
+    }
+
+
+}
+string pathSalon = Combine(CurrentDirectory, "salon.xml");
+if(Path.Exists(pathSalon))
+{
+    
+    // lo deserializas
+    using (FileStream xmlLoad = File.Open(pathSalon,FileMode.Open))
+    {
+       
+        salones = xsS.Deserialize(xmlLoad) as List<Salon>;
+  
+    }
+
+}
+else
+{
+    using (FileStream stream = File.Create(pathSalon))
+    {
+        
+        xsS.Serialize(stream, salones);
+    }
+
+
+}
+
 
 string pathProfe = Combine(CurrentDirectory, "profesor.xml");
 if(Path.Exists(pathProfe))
@@ -73,6 +160,7 @@ else
 
 
 }
+
 
 while(validar == false)
 {
@@ -126,15 +214,18 @@ switch(opcion)
         string? pass = ReadLine();
         Write("Division: ");
         string? division = ReadLine();
-        if( string.IsNullOrWhiteSpace(nomina)|| string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(ape) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(division))
+        Write("Materia: ");
+        string? materia = ReadLine();
+        if( string.IsNullOrWhiteSpace(nomina)|| string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(ape) || string.IsNullOrWhiteSpace(pass) || string.IsNullOrWhiteSpace(division) || string.IsNullOrWhiteSpace(materia))
         {
             WriteLine("Falto algun dato por ingresar!!!");
             break;
         }
-        Profesor agregar = new(func.GetMD5(nomina!), nombre, ape, func.GetMD5(pass!), division);
+        Profesor agregar = new(func.GetMD5(nomina!), nombre, ape, func.GetMD5(pass!), division, materia);
         
-        
+
         profesor!.Add(agregar);
+        profesor = profesor!.OrderBy(x=> x.Materias!.FirstOrDefault()).ToList();
 
        
 
@@ -144,6 +235,14 @@ switch(opcion)
         {
             xsP.Serialize(stream, profesor);
         }
+
+        File.WriteAllText(JpathAlma,JsonSerializer.Serialize(almacenista));
+
+        File.WriteAllText(JpathAlumno,JsonSerializer.Serialize(alumnos));
+
+        File.WriteAllText(JpathProfesor,JsonSerializer.Serialize(profesor));
+
+        File.WriteAllText(JpathSalon,JsonSerializer.Serialize(salones));
         break;
     }
 
@@ -255,6 +354,34 @@ switch(opcion)
 
     case "5":
     {
+        bool regreso;
+
+        WriteLine("Ok, con que quieres hacer un reporte, Perfecto");
+        WriteLine("Y en base a que dato lo quieres ordenar?");
+        WriteLine("1.- Nomina");
+        WriteLine("2.- Nombre(s)");
+        WriteLine("3.- Apellidos");
+        WriteLine("4.- Contraseña");
+        WriteLine("5.- Materias");
+        WriteLine("7.- Division");
+        Write("Ingresa una opcion: ");
+        string? op = ReadLine();
+        Write("Perfecto, ingresa un nombre para el archivo: ");
+        string? nom = ReadLine();
+        regreso = func.Reporte(op,nom);
+        if(regreso is true)
+        {
+            WriteLine("Operacion exitosa");
+            string newpath = Combine(GetFolderPath(SpecialFolder.MyDocuments), nom + ".xml" );
+            WriteLine($"Tu documento esta en: {newpath}");
+
+        }
+        else
+        {
+            WriteLine("Operacion fallida");
+
+        }
+        
         break;
     }
 

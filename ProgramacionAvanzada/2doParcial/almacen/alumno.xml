@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Alumno Registro="20300703" Nombre="Luis" Apellidos="Martinez Ferrer" Contraseña="qwer">
+    <Salon>
+      <string>SL1</string>
+      <string>SL2</string>
+      <string>SL3</string>
+    </Salon>
+  </Alumno>
+  <Alumno Registro="20300892" Nombre="Luisa" Apellidos="Hernandez Plaza" Contraseña="rewq">
+    <Salon>
+      <string>LE1</string>
+      <string>LE2</string>
+      <string>LE3</string>
+    </Salon>
+  </Alumno>
+  <Alumno Registro="20300445" Nombre="Fernanda" Apellidos="Gomez Lopez" Contraseña="iuyt">
+    <Salon>
+      <string>SLA</string>
+      <string>SLB</string>
+      <string>SLC</string>
+    </Salon>
+  </Alumno>
+  <Alumno Registro="20300763" Nombre="Alberto" Apellidos="De la Cruz Diaz" Contraseña="tyui">
+    <Salon>
+      <string>LE1</string>
+      <string>LE3</string>
+    </Salon>
+  </Alumno>
+  <Alumno Registro="20100001" Nombre="Antonio" Apellidos="Fox" Contraseña="mipapaesfox">
+    <Salon>
+      <string>SL1</string>
+      <string>SL2</string>
+      <string>SL3</string>
+    </Salon>
+  </Alumno>
+</ArrayOfAlumno>

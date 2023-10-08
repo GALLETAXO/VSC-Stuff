@@ -13,13 +13,13 @@ using AlmacenLib;
 
 public class AlmacenUnitTesting
 {
-    public string[]? log = new string[] {"Toño", "Fox", "123"};
+    
 
     [Fact]
-    public void Login()
+    public void LoginEncriptacion()
     {
         Funciones func = new();
-        bool actual = func.Login(log![0], log[2]);
+        bool actual = func.Login("Gael", func.GetMD5("1234"));
 
         bool expected = true;
 
@@ -34,11 +34,140 @@ public class AlmacenUnitTesting
     {
         Funciones func = new();
         
-        bool actual = func.Eliminar(log![0]);
+        bool actual = func.Eliminar("Octavio");
         bool expected = true;
 
         Assert.Equal(expected,actual);
    
 
     }
+
+    [Fact]
+    public void NoKill()
+    {
+        Funciones func = new();
+        
+        bool actual = func.Eliminar("Incorrecto");
+        bool expected = false;
+
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void MatAgregarCorrecta()
+    {
+        Funciones func = new();
+        bool actual = func.Materia("Luis", "5", "Pruebologia");
+        bool expected = true;
+        
+
+
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void MatAgregarIncorrecta()
+    {
+        Funciones func = new();
+        bool actual = func.Materia("Luis", "7", "Pruebologia");
+        bool expected = false;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void MatEliminar()
+    {
+        Funciones func = new();
+        bool actual = func.Materia("Luis", "6", "Caceria de Fantasmas");
+        bool expected = true;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void MatElimAgregarNoencontrado()
+    {
+        Funciones func = new();
+        bool actual = func.Materia("Luis", "6", "Botanica");
+        bool expected = false;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void CambiarBien()
+    {
+        Funciones func = new();
+        bool actual = func.Cambiar("Mario", "3", "Triviño");
+        bool expected = true;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+
+    [Fact]
+    public void CambiarNoOpcion()
+    {
+        Funciones func = new();
+        bool actual = func.Cambiar("Luis", "10", "Triviño");
+        bool expected = false;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void CambiarNoObjetivo()
+    {
+        Funciones func = new();
+        bool actual = func.Cambiar("Yo", "3", "Triviño");
+        bool expected = false;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void ContraFunciona()
+    {
+        Funciones func = new();
+        bool actual = func.Contra("Emiliano","345");
+        bool expected = true;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+    [Fact]
+    public void ContraNoEncuentra()
+    {
+        Funciones func = new();
+        bool actual = func.Contra("Yo","345");
+        bool expected = false;
+        
+        Assert.Equal(expected,actual);
+   
+
+    }
+
+
+
+
+
 }
