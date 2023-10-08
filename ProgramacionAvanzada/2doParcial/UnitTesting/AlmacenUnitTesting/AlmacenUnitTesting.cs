@@ -1,5 +1,4 @@
 namespace AlmacenUnitTesting;
-// En este espacio se encuentran todas las funciones que despues se usaran en Program, con el fin de que este todo ordenado 
 using static System.IO.Directory; 
 using static System.IO.Path; 
 using static System.Environment;
@@ -9,14 +8,15 @@ using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 using Xunit.Sdk;
 using AlmacenLib;
-
+// mis terribles unit testing, un poco feas, pero en mi defenza, las hice mientras desarrollaba el programa para ir probando las partes, pero despues fui moviendo las funciones hacia su clase
+// por que no las deje aqui? por tonto 
 
 public class AlmacenUnitTesting
 {
     
 
     [Fact]
-    public void LoginEncriptacion()
+    public void LoginEncriptacion() // aqui revisaremos que el login sea exitoso
     {
         Funciones func = new();
         bool actual = func.Login("Gael", func.GetMD5("1234"));
@@ -30,7 +30,7 @@ public class AlmacenUnitTesting
 
 
     [Fact]
-    public void Kill()
+    public void Kill() // revisaremos que la funcion regrese correctamente el valor, segun si se hizo o no la accion 
     {
         Funciones func = new();
         
@@ -43,7 +43,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void NoKill()
+    public void NoKill() // revisaremos que la funcion regrese correctamente el valor, segun si se hizo o no la accion, en este caso debera fallar 
     {
         Funciones func = new();
         
@@ -56,7 +56,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void MatAgregarCorrecta()
+    public void MatAgregarCorrecta() // revisaremos que la funcion regrese correctamente el valor, segun si se hizo o no la accion, viendo que procese los datos correctamente 
     {
         Funciones func = new();
         bool actual = func.Materia("Luis", "5", "Pruebologia");
@@ -70,7 +70,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void MatAgregarIncorrecta()
+    public void MatAgregarIncorrecta() // revisaremos que la funcion regrese correctamente el valor, segun si se hizo o no la accion, revisaremos que regrese lo que debe si falla 
     {
         Funciones func = new();
         bool actual = func.Materia("Luis", "7", "Pruebologia");
@@ -82,7 +82,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void MatEliminar()
+    public void MatEliminar() // revisaremos que efectivamente se eliminen las cosas como se debe y nos lo notifique 
     {
         Funciones func = new();
         bool actual = func.Materia("Luis", "6", "Caceria de Fantasmas");
@@ -94,7 +94,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void MatElimAgregarNoencontrado()
+    public void MatElimAgregarNoencontrado() // revisamos el caso en el que no encuentre el objetivo 
     {
         Funciones func = new();
         bool actual = func.Materia("Luis", "6", "Botanica");
@@ -106,7 +106,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void CambiarBien()
+    public void CambiarBien() // revisaremos que se haga correctamente un cambio 
     {
         Funciones func = new();
         bool actual = func.Cambiar("Mario", "3", "Triviño");
@@ -119,7 +119,7 @@ public class AlmacenUnitTesting
 
 
     [Fact]
-    public void CambiarNoOpcion()
+    public void CambiarNoOpcion() // ahora,  revisaremos que pasa si no encuentra la opcion 
     {
         Funciones func = new();
         bool actual = func.Cambiar("Luis", "10", "Triviño");
@@ -131,7 +131,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void CambiarNoObjetivo()
+    public void CambiarNoObjetivo() // en el caso de que no encentre el objetivo 
     {
         Funciones func = new();
         bool actual = func.Cambiar("Yo", "3", "Triviño");
@@ -143,7 +143,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void ContraFunciona()
+    public void ContraFunciona() // revisaremos la funcion de cambiar contraseña del administrador para revisar que haga el proceso correcto y lo notifique 
     {
         Funciones func = new();
         bool actual = func.Contra("Emiliano","345");
@@ -155,7 +155,7 @@ public class AlmacenUnitTesting
     }
 
     [Fact]
-    public void ContraNoEncuentra()
+    public void ContraNoEncuentra()// este es el caso en el que no encuentre el objetivo a cambiar 
     {
         Funciones func = new();
         bool actual = func.Contra("Yo","345");
@@ -170,4 +170,4 @@ public class AlmacenUnitTesting
 
 
 
-}
+} // fin :), ahora si 
