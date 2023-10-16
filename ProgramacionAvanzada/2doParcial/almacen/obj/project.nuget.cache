@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YkfIinaj81AAPmiv9c/aU+H8q8rpZ9+arBbelGuBO1FKda85g5j5StDa4at6c2Kl9HSgGfHED+qoq5kjxAUogQ==",
+  "dgSpecHash": "9oM7++GzuIaFQapDjcnzgxFINw8T3YjY/BQLR7A4rmYjLAZth0zb5PLlOAgaIQCLsoYAZ6JT+Koql2D12kbpQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gael\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

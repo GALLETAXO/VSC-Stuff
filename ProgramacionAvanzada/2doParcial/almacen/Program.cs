@@ -5,6 +5,7 @@ using static System.IO.Path;
 using System.Xml.Serialization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using FastJson = System.Text.Json.JsonSerializer;
 using System.Diagnostics.SymbolStore;
 
 // las librerias que necesitaremos para el codigazo :D
@@ -160,8 +161,13 @@ else
 
 
 // en esta parte hacemos el lugar donde se crearan los archivos json, a la vez que escribimos estos documentos con los datos de nuestras listas hasta ahora
-string JpathAlma = Combine(CurrentDirectory, "almacenista.json");
-File.WriteAllText(JpathAlma,JsonSerializer.Serialize(almacenista));
+string JpathAlma = Combine(CurrentDirectory, "Persona.json");
+    using (StreamWriter jsonStream = File.CreateText(JpathAlma))
+    {
+        WriteLine($"Written {new FileInfo(JpathAlma).Length} bytes of Json to {JpathAlma}");
+        Newtonsoft.Json.JsonSerializer jss = new();
+        jss.Serialize(jsonStream, almacenista);
+    }
 string JpathAlumno = Combine(CurrentDirectory, "alumno.json");
 File.WriteAllText(JpathAlumno,JsonSerializer.Serialize(alumnos));
 string JpathProfesor = Combine(CurrentDirectory, "profesor.json");

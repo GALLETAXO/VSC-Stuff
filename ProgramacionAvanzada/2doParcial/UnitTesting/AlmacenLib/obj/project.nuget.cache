@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f0MURMwdwWwlab6a1bGTPpl+hDtji3raiK2deo7uXvWbeA91KveHL1Zwdye3V+RF4QvHp289MVdMZmTZbnDp5w==",
+  "dgSpecHash": "kaN5pgo6/qAtMg6TNy3pUU5g8O0EsJHlVCqcS1cNX0JwCin0rPpn/o4If3Y3r/IkjmYftblrp3ehfi75A3welA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gael\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

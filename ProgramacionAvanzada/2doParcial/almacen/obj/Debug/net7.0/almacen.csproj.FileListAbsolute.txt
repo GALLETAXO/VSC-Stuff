@@ -16,3 +16,4 @@ C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\almacen
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\almacen\bin\Debug\net7.0\AlmacenLib.pdb
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\almacen\obj\Debug\net7.0\almacen.csproj.AssemblyReference.cache
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\almacen\obj\Debug\net7.0\almacen.csproj.CopyComplete
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\2doParcial\almacen\bin\Debug\net7.0\Newtonsoft.Json.dll

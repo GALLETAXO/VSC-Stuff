@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-  <Using Include = "System.Console" static= "true" />
-  <ProjectReference Include="../UnitTesting/AlmacenLib/AlmacenLib.csproj"/>
+  <Using Include="System.Console" static="true" />
+  <ProjectReference Include="../UnitTesting/AlmacenLib/AlmacenLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
