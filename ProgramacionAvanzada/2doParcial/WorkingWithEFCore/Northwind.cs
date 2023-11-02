@@ -17,6 +17,8 @@ public class Northwind : DbContext
         ForegroundColor = backgoundColor;
         // Use The DB Motor
         optionsBuilder.UseSqlite(connection);
+        // actvate Lazy loading
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
