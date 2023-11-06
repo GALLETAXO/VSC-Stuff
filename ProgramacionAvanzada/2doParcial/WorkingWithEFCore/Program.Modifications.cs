@@ -65,6 +65,7 @@ partial class Program
             db.Products.First(
                 p => p.ProductName.StartsWith(productNameStartWith));
             updateProdcut.Cost = amount;
+            // equals? ---> db.Products.First(p=>p.ProductName.StartsWith(productNameStartWith)).Cost = amount;
             int affected = db.SaveChanges();
             return (affected, updateProdcut.ProductId);
         }
@@ -79,12 +80,13 @@ partial class Program
             // Get the first product that start with productNameStartWith
             IQueryable<Product>? products =
             db.Products.Where(
-                p => p.ProductName.StartsWith(productNameStartWith));
+                p => p.ProductName.StartsWith(productNameStartWith)); // here we take all the products that match with our productNameStartWith
             int affected = products.ExecuteUpdate(u => u.SetProperty(
-                p => p.Cost, // Property Selctor
+                p => p.Cost, // Property Selector
                 p => p.Cost + amount // Value to edit
+                // here we use that products we collect, we execute an update to the same variable in all the products we found
             ));
-            int[] productIds = products.Select( p => p.ProductId).ToArray();
+            int[] productIds = products.Select( p => p.ProductId).ToArray(); // here we obtain all the id's from the updated products
             return (affected, productIds);
         }
     }
@@ -104,7 +106,7 @@ partial class Program
             else
             {
                 if( db.Products is null) return 0;
-                db.Products.RemoveRange(products);
+                db.Products.RemoveRange(products); // before this, we obtain all the products that match, then we remove them all at the same time 
             }
             int affected = db.SaveChanges();
             return affected;
@@ -127,7 +129,7 @@ partial class Program
             }
             else
             {
-                affected = products.ExecuteDelete();
+                affected = products.ExecuteDelete(); //here we have the matching products so we executedelete to erase all the products that matched with the query from the variable products
             }
             return affected;
             

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj": {}
+    "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj": {
+    "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj",
+        "projectUniqueName": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj",
         "projectName": "Lector",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\lol\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\obj\\",
+        "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\Lector.csproj",
+        "packagesPath": "C:\\Users\\Gael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\Lector\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

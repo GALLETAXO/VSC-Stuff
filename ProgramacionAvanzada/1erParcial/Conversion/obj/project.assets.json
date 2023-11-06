@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Gael\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\ProgramacionAvanzada\\1erParcial\\conversion\\Conversion.csproj",
+      "projectUniqueName": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\1erParcial\\Conversion\\Conversion.csproj",
       "projectName": "Conversion",
-      "projectPath": "C:\\Users\\Usuario\\ProgramacionAvanzada\\1erParcial\\conversion\\Conversion.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\ProgramacionAvanzada\\1erParcial\\conversion\\obj\\",
+      "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\1erParcial\\Conversion\\Conversion.csproj",
+      "packagesPath": "C:\\Users\\Gael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\1erParcial\\Conversion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
