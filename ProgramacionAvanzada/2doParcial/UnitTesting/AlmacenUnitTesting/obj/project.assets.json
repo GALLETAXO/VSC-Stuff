@@ -5540,32 +5540,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Gael\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\AlmacenUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\AlmacenUnitTesting.csproj",
       "projectName": "AlmacenUnitTesting",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\AlmacenUnitTesting.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\obj\\",
+      "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\AlmacenUnitTesting.csproj",
+      "packagesPath": "C:\\Users\\Gael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj"
+            "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
+              "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj"
             }
           }
         }
@@ -5617,7 +5624,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

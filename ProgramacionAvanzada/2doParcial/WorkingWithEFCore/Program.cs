@@ -1,14 +1,21 @@
 ﻿using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using WorkingWithEFCore;
 
 Northwind db = new();
 WriteLine($"Provider : {db.Database.ProviderName}");
 
 
-string input;
-int cuanta;
 
-WriteLine("Escribe de cuanto en cuanto se mostrarán ej: 1, 5, 10, 25, 50");
+string input;
+int cuanta = 0;
+bool go = false;
+
+do
+{
+
+Console.Clear();
+WriteLine("Escribe de cuanto en cuanto se mostrarán ej: 1, 5, 10, 25, 50, s para salir");
 input = ReadLine()!;
 
 switch(input)
@@ -16,43 +23,59 @@ switch(input)
     case "1":
     {
         cuanta = 1;
+        go = false;
         break;
 
     }
     case "5":
     {
         cuanta = 5;
+        go = false;
         break;
 
     }
     case "10":
     {
         cuanta = 10;
+        go = false;
         break;
 
     }
     case "25":
     {
         cuanta = 25;
+        go = false;
         break;
 
     }
     case "50":
     {
         cuanta = 50;
+        go = false;
         break;
 
     }
+    case "s":
+    {
+        go = true;
+        break;
+    }
     default:
     {
-        cuanta = db.Products!.Count();
+        go = false;
         break;
 
     }
 }
+if (go == false)
+{
+    paginator(cuanta);
+}
+
+}while(go == false);
 
 
-paginator(cuanta);
+
 
 
 // QueryingCategories();

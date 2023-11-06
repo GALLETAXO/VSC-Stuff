@@ -1,6 +1,8 @@
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WorkingWithEFCore;
 
 partial class Program
@@ -57,16 +59,12 @@ partial class Program
 
             prod.Find(x=> x.ProductId == 2);
             
-            for(int x = 1; x< prod.Count(); x ++)
+            for(int x = 1; x <= prod.Count(); x ++)
             {
                 
     
             
                 Product product = prod.Find(p=> p.ProductId == x)!;
-                
-                
-
-
                 
                 
                 string disco;
@@ -83,36 +81,82 @@ partial class Program
                 product.ProductId, product.ProductName, product.Stock, disco, product.Category.CategoryName);
                 cuenta ++;
 
-                if(cuenta == cuantas)
+                if(cuenta == cuantas || x == prod.Count)
                 {
                     pagactual++;
-                    cuenta = 0;
+                    
                     int pags = products.Count() / cuantas;
-                    WriteLine("___________________________________________________________________");
-                    WriteLine("| {0,-3} | {1,-35} | {2,17}| {2}",
-                    cuantas, $"{pagactual}/{pags}", products.Count());
-                    var z = ReadKey();
+                    WriteLine("___________________________________________________________________________");
+                    WriteLine("| {0,-3} | {1,-35} |{2}",
+                    cuantas, $"{pagactual}/{pags + 1}", products.Count());
+                    bool go = false;
+                    ConsoleKeyInfo z;
 
-                    if(z.Key == ConsoleKey.RightArrow)
+                    do 
                     {
-                        Console.Clear();
-                        WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
-                        "Id", "Product Name", "Stock", "Disc", "Category");
-                        
+                    z = ReadKey();
+                    go = false;
 
+                    switch(z.Key)
+                    {
+                        case ConsoleKey.RightArrow:
+                        {
+                            go = true;
+                            Console.Clear();
+                            WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
+                            "Id", "Product Name", "Stock", "Disc", "Category");
+                            if(x == prod.Count)
+                            {
+                                x = x - cuenta;
+                                pagactual --;
+                            }
+                            break;
+                        }
+
+                        case ConsoleKey.LeftArrow:
+                        {
+                            go = true;
+                            Console.Clear();
+                        
+                            WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
+                            "Id", "Product Name", "Stock", "Disc", "Category");
+                            if(x == prod.Count)
+                            {
+                                x = x - cuenta - cuantas;
+                                pagactual = pagactual --;
+                            }
+                            else
+                            {
+                                x = x - (cuenta * 2);
+                                pagactual = pagactual - 2;
+                            }
+
+                            if((x - cuantas) < 0 )
+                            {
+                                x = 0;
+                                pagactual = 0;
+                            }
+
+                            if(x == prod.Count)
+                            {
+
+                            }
+                            break;
+                        }
+                        case ConsoleKey.S:
+                        {
+                            return;
+                        }
+
+                        default:
+                        {
+                            go = false;
+                            break;
+                        }
                     }
 
-                    if(z.Key == ConsoleKey.LeftArrow)
-                    {
-                        Console.Clear();
-                        WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
-                        "Id", "Product Name", "Stock", "Disc", "Category");
-                        x = x - cuantas;
-                        pagactual --;
-                        
-                     
-                    }
-
+                    }while(go == false);
+                    cuenta = 0;
 
                     
                 
