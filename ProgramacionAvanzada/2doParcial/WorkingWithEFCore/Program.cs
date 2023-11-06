@@ -1,7 +1,59 @@
-﻿using WorkingWithEFCore;
+﻿using System.Runtime.CompilerServices;
+using WorkingWithEFCore;
 
 Northwind db = new();
 WriteLine($"Provider : {db.Database.ProviderName}");
+
+
+string input;
+int cuanta;
+
+WriteLine("Escribe de cuanto en cuanto se mostrarán ej: 1, 5, 10, 25, 50");
+input = ReadLine()!;
+
+switch(input)
+{
+    case "1":
+    {
+        cuanta = 1;
+        break;
+
+    }
+    case "5":
+    {
+        cuanta = 5;
+        break;
+
+    }
+    case "10":
+    {
+        cuanta = 10;
+        break;
+
+    }
+    case "25":
+    {
+        cuanta = 25;
+        break;
+
+    }
+    case "50":
+    {
+        cuanta = 50;
+        break;
+
+    }
+    default:
+    {
+        cuanta = db.Products!.Count();
+        break;
+
+    }
+}
+
+
+paginator(cuanta);
+
 
 // QueryingCategories();
 // FilterIncludes();
@@ -9,7 +61,7 @@ WriteLine($"Provider : {db.Database.ProviderName}");
 // QueryingWithLike();
 // GetRandomProduct();
 
-
+/*
 #region CRUD
 ListProducts();
     // Use of Create
@@ -56,3 +108,6 @@ ListProducts();
 
 
 #endregion
+
+*/
+

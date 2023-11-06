@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using WorkingWithEFCore;
@@ -16,6 +17,8 @@ partial class Program
             }
             WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
             "Id", "Product Name", "Cost", "Stock", "Disc");
+
+
             foreach (var product in db.Products)
             {
                 ConsoleColor backgroundColor = ForegroundColor;
@@ -28,6 +31,101 @@ partial class Program
                 ForegroundColor = backgroundColor;
             }
         }
+    }
+
+
+
+    static void paginator(int cuantas)
+    {
+
+        using (Northwind db = new())
+        {
+            Console.Clear();
+            if((db.Products is null) || (!db.Products.Any()))
+            {
+                Fail("There are no products");
+                return;
+            }
+
+            WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
+            "Id", "Product Name", "Stock", "Disc", "Category");
+       
+            int cuenta = 0;
+            int pagactual =0;
+            IQueryable<Product> products = db.Products.Include(c => c.Category);
+            List<Product> prod = products.ToList();
+
+            prod.Find(x=> x.ProductId == 2);
+            
+            for(int x = 1; x< prod.Count(); x ++)
+            {
+                
+    
+            
+                Product product = prod.Find(p=> p.ProductId == x)!;
+                
+                
+
+
+                
+                
+                string disco;
+                if (product.Discontinued == true)
+                {
+                    disco = "Yes";
+                }
+                else
+                {
+                    disco = "No";
+                }
+                
+                WriteLine("| {0:000} | {1,-35} | {2,8} | {3,5} | {4}",
+                product.ProductId, product.ProductName, product.Stock, disco, product.Category.CategoryName);
+                cuenta ++;
+
+                if(cuenta == cuantas)
+                {
+                    pagactual++;
+                    cuenta = 0;
+                    int pags = products.Count() / cuantas;
+                    WriteLine("___________________________________________________________________");
+                    WriteLine("| {0,-3} | {1,-35} | {2,17}| {2}",
+                    cuantas, $"{pagactual}/{pags}", products.Count());
+                    var z = ReadKey();
+
+                    if(z.Key == ConsoleKey.RightArrow)
+                    {
+                        Console.Clear();
+                        WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
+                        "Id", "Product Name", "Stock", "Disc", "Category");
+                        
+
+                    }
+
+                    if(z.Key == ConsoleKey.LeftArrow)
+                    {
+                        Console.Clear();
+                        WriteLine("| {0,-3} | {1,-35} | {2,8} | {3,5} | {4}",
+                        "Id", "Product Name", "Stock", "Disc", "Category");
+                        x = x - cuantas;
+                        pagactual --;
+                        
+                     
+                    }
+
+
+                    
+                
+
+                }
+            
+
+
+            }
+        }
+
+
+
     }
 
     // Insert , Create

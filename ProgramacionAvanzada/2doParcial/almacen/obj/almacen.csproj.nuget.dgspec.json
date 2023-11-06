@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj",
         "projectName": "almacen",
-        "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj",
-        "packagesPath": "C:\\Users\\Gael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\almacen.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\almacen\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
-                "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj"
+              "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj"
               }
             }
           }
@@ -69,32 +63,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj",
         "projectName": "AlmacenLib",
-        "projectPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj",
-        "packagesPath": "C:\\Users\\Gael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\AlmacenLib.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\epico\\vsc-stuff\\ProgramacionAvanzada\\2doParcial\\UnitTesting\\AlmacenLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -134,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
