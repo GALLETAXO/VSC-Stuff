@@ -3,6 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema; //Column TypeName
 namespace WorkingWithEFCore;
 public class Product
 {
+
+
+
+    // we have the following types: int, string, decimal, bool 
     public int ProductId { get; set; }
     [Required]
     [StringLength(40)]
@@ -19,4 +23,8 @@ public class Product
     // Navigation Properties
     public int CategoryId { get; set; }
     public virtual Category Category { get; set; } = null!;
+
+
+
+
 }

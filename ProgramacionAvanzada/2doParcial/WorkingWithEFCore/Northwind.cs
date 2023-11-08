@@ -7,6 +7,7 @@ public class Northwind : DbContext
     // These properties tell which tables are available
     public DbSet<Category>? Categories { get; set; }
     public DbSet<Product>? Products { get; set; }
+    public List<Product>? Productos {get; set;}
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         string path = Path.Combine(Environment.CurrentDirectory, "Northwind.db");

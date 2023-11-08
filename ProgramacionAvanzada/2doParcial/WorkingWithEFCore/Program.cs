@@ -1,12 +1,15 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using WorkingWithEFCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Net.Http.Headers;
 
 Northwind db = new();
 WriteLine($"Provider : {db.Database.ProviderName}");
 
 
-
+/*
 string input;
 int cuanta = 0;
 bool go = false;
@@ -73,6 +76,79 @@ if (go == false)
 }
 
 }while(go == false);
+
+
+*/
+
+
+
+            List<Product> prod = db.Products!.ToList();
+
+
+            WriteLine(prod.Moda(1));
+            WriteLine(prod.Moda(2));
+            WriteLine(prod.Moda(3));
+            WriteLine(prod.Moda(1M));
+            WriteLine(prod.Media(1));
+            WriteLine(prod.Media(2));
+            WriteLine(prod.Media(3));
+            WriteLine(prod.Media(1M));
+            decimal? var = prod.Mediana(1);
+            WriteLine(var);
+            var = prod.Mediana(2);
+            WriteLine(var);
+            var = prod.Mediana(3);
+            WriteLine(var);
+            var = prod.Mediana(1M);
+            WriteLine(var);
+
+            if(prod.Moda(true))
+            {
+                WriteLine("La moda es estar descontinuado");
+            }
+            else
+            {
+                WriteLine("La moda es  NO estar descontinuado");
+            }
+
+            WriteLine($"En promedio el {prod.Media(true)}% de los productos no han sido descontinuados");
+
+            switch(prod.Mediana(true))
+            {
+                case 1:
+                {
+                    WriteLine("Verdadero");
+                    break;
+                }
+                case 2:
+                {
+                    WriteLine("Falso");
+                    break;
+                }
+                case 3:
+                {
+                    WriteLine("Oh no, una paradoja");
+                    break;
+                }
+                default:
+                {
+                    break;
+                }
+            }
+
+            WriteLine($"El caracter que mas se repite en los nombres(moda) es: {prod.Moda("N")}");
+            WriteLine($"El caracter que mas se repite en la cantidad por unidad(moda) es: {prod.Moda("C")}");
+            WriteLine($"La media de todos los valores de todos los caracteres de los nombres es: {prod.Media("N")}");
+            WriteLine($"La media de todos los valores de todos los caracteres de la cantidad por unidades es: {prod.Media("C")}");
+            WriteLine($"La mediana de todos los caracteres de los nombres es: {prod.Mediana("N")}");
+            WriteLine($"La mediana de todos los caracteres de la cantidad por unidads es: {prod.Mediana("C")}");
+            
+
+
+
+
+            
+            
 
 
 
