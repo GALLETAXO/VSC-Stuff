@@ -8,14 +8,14 @@
 <h1>Category</h1>
 
 
-<table class="table">
+<table class="table"> <!--we start creating the table layuot-->
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.categories[0].CategoryId)
+                @Html.DisplayNameFor(model => model.categories[0].CategoryId) <!-- this is a cool trick, here I can access to this information even if we don´t have data in the tables, why? -->
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.categories[0].CategoryName)
+                @Html.DisplayNameFor(model => model.categories[0].CategoryName) <!-- Well i understand that the lambda here is only inspecting the name of the column, so it isn't doing nothing wrong-->
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.categories[0].Description)
@@ -24,20 +24,20 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.categories) {
+@foreach (var item in Model.categories) { // here we use a foreach to write all the values we got from the table
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
+                @Html.DisplayFor(modelItem => item.CategoryId) <!--We can make epic changes betwheen cs and html using the a in circle, vscode get mad if I use it here haha-->
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CategoryName)
+                @Html.DisplayFor(modelItem => item.CategoryName)<!-- this gives us so much posibilities like this, all this works because we are using razor-->
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                <a asp-page="./Delete" asp-route-id="@item.CategoryId">
-                <img src="https://static-00.iconduck.com/assets.00/trash-icon-462x512-njvey5nf.png" alt="" style="width:15px;height:20px;">
+                <a asp-page="./Delete" asp-route-id="@item.CategoryId"> <!--to finish the row, we add a tiny trash can, if you press it, the row will be deleted -->
+                <img src="https://static-00.iconduck.com/assets.00/trash-icon-462x512-njvey5nf.png" alt="" style="width:15px;height:20px;"><!-- I call an other page to do it, I give it the Id of the category-->
                 </a>
             </td>
         </tr>
@@ -46,6 +46,6 @@
 
 </table>
 
-    <button onclick="window.location.href='/add';">
+    <button onclick="window.location.href='/add';"> <!--Finally, a tiny button, this take us to the add category page-->
       Add Category
     </button>

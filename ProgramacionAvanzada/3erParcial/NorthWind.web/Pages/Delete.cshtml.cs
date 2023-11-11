@@ -11,43 +11,43 @@ namespace Northwind.Pages.Categories
 {
 
 
-     public class DeleteModel : PageModel
+     public class DeleteModel : PageModel // the class for the deleting methods
     {
         private  Common.Entities.NorthwindContext _context;
 
-        public DeleteModel(Common.Entities.NorthwindContext context)
+        public DeleteModel(Common.Entities.NorthwindContext context) // the same of the other pages
         {
             _context = context;
         }
 
         [BindProperty]
-        public Category categories { get; set; } = default!;
+        public Category categories { get; set; } = default!; // our variable for making changes
         
 
     
 
 
-    public async Task<IActionResult> OnGetAsync(int? id)
+    public async Task<IActionResult> OnGetAsync(int? id) // we automaticly start to delete things hahaha
         {
-            if (id == null || _context.Categories == null)
+            if (id == null || _context.Categories == null) // we check if we hace and id, and if the table exist
             {
                 return NotFound();
             }
 
-            var cat = await _context.Categories.FirstOrDefaultAsync(c => c.CategoryId == id);
+            var cat = await _context.Categories.FirstOrDefaultAsync(c => c.CategoryId == id); // we serch for the fist value that match with thw id we got
 
-            if (cat == null)
+            if (cat == null) // check if we find something
             {
-                return RedirectToPage("/add");
+                return RedirectToPage("/index"); // if we don't we return to the index, with out deleting nothing
             }
             else 
             {
-                categories = cat;
-                _context.Categories.Remove(categories);
-                await _context.SaveChangesAsync();
+                categories = cat; 
+                _context.Categories.Remove(categories);// we delate that value we find
+                await _context.SaveChangesAsync();// save the changes
             }
 
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Index"); // finally, we return to the main page
             
            
         }

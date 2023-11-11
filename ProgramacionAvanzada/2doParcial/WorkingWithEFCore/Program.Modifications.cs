@@ -123,7 +123,7 @@ partial class Program
                             if(x == prod.Count)
                             {
                                 x = x - cuenta - cuantas;
-                                pagactual = pagactual --;
+                                pagactual = pagactual - 2;
                             }
                             else
                             {
@@ -205,7 +205,7 @@ partial class Program
             // Get the first product that start with productNameStartWith
             Product updateProdcut =
             db.Products.First(
-                p => p.ProductName.StartsWith(productNameStartWith));
+                p => p.ProductName!.StartsWith(productNameStartWith));
             updateProdcut.Cost = amount;
             // equals? ---> db.Products.First(p=>p.ProductName.StartsWith(productNameStartWith)).Cost = amount;
             int affected = db.SaveChanges();
@@ -222,7 +222,7 @@ partial class Program
             // Get the first product that start with productNameStartWith
             IQueryable<Product>? products =
             db.Products.Where(
-                p => p.ProductName.StartsWith(productNameStartWith)); // here we take all the products that match with our productNameStartWith
+                p => p.ProductName!.StartsWith(productNameStartWith)); // here we take all the products that match with our productNameStartWith
             int affected = products.ExecuteUpdate(u => u.SetProperty(
                 p => p.Cost, // Property Selector
                 p => p.Cost + amount // Value to edit
@@ -239,7 +239,7 @@ partial class Program
         using(Northwind db = new())
         {
             IQueryable<Product>? products = db.Products?.Where(
-                p => p.ProductName.StartsWith(productNameStartWith));
+                p => p.ProductName!.StartsWith(productNameStartWith));
             if(products is null || !products.Any())
             {
                 WriteLine("No products to delete");
@@ -263,7 +263,7 @@ partial class Program
         {
             int affected = 0;
             IQueryable<Product>? products = db.Products?.Where(
-                p => p.ProductName.StartsWith(productNameStartWith));
+                p => p.ProductName!.StartsWith(productNameStartWith));
             if(products is null || !products.Any())
             {
                 WriteLine("No products to delete");
