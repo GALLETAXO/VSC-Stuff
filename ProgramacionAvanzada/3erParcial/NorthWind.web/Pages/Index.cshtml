@@ -1,0 +1,51 @@
+@page
+@model Northwind.Pages.Categories.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Category</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.categories[0].CategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categories[0].CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categories[0].Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.categories) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.CategoryId">
+                <img src="https://static-00.iconduck.com/assets.00/trash-icon-462x512-njvey5nf.png" alt="" style="width:15px;height:20px;">
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+
+</table>
+
+    <button onclick="window.location.href='/add';">
+      Add Category
+    </button>
