@@ -44,7 +44,17 @@ namespace Northwind.Pages.Categories
             {
                 categories = cat; 
                 _context.Categories.Remove(categories);// we delate that value we find
-                await _context.SaveChangesAsync();// save the changes
+                try
+                {
+                    await _context.SaveChangesAsync();// save the changes
+                    
+                }
+                catch (System.Exception)
+                {
+                    
+                    return Page();
+                }
+                
             }
 
             return RedirectToPage("/Index"); // finally, we return to the main page
