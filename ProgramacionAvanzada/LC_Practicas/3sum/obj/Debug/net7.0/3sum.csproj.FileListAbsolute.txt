@@ -1,0 +1,4 @@
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\LC_Practicas\3sum\obj\Debug\net7.0\3sum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\LC_Practicas\3sum\obj\Debug\net7.0\3sum.AssemblyInfoInputs.cache
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\LC_Practicas\3sum\obj\Debug\net7.0\3sum.AssemblyInfo.cs
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\LC_Practicas\3sum\obj\Debug\net7.0\3sum.csproj.CoreCompileInputs.cache
