@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4y9coYEuDfgHNXR4h/tgjBpfAoOODsIVbmIS1AormUVdsl9MfikhNJFc7Sj+5aOZg87DwTzpnzHIGuuZTOtMDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gael\\Desktop\\random\\EF_Repaso\\EF_Repaso.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

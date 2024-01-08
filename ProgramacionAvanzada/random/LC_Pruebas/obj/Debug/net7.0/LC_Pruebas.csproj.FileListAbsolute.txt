@@ -1,0 +1,14 @@
+C:\Users\Gael\Desktop\random\LC_Pruebas\bin\Debug\net7.0\LC_Pruebas.exe
+C:\Users\Gael\Desktop\random\LC_Pruebas\bin\Debug\net7.0\LC_Pruebas.deps.json
+C:\Users\Gael\Desktop\random\LC_Pruebas\bin\Debug\net7.0\LC_Pruebas.runtimeconfig.json
+C:\Users\Gael\Desktop\random\LC_Pruebas\bin\Debug\net7.0\LC_Pruebas.dll
+C:\Users\Gael\Desktop\random\LC_Pruebas\bin\Debug\net7.0\LC_Pruebas.pdb
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.AssemblyInfoInputs.cache
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.AssemblyInfo.cs
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.csproj.CoreCompileInputs.cache
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.dll
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\refint\LC_Pruebas.dll
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.pdb
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\LC_Pruebas.genruntimeconfig.cache
+C:\Users\Gael\Desktop\random\LC_Pruebas\obj\Debug\net7.0\ref\LC_Pruebas.dll

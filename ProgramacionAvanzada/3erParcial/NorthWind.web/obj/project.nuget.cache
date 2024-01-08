@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FrGlekbOecuzbUHpv1FOxd6FE5KDptJ3W6UdpXF0jpoqT1qHj+0sM7G+oMl2YagZjeBPWyET02K0ArFJ+oyg+Q==",
+  "dgSpecHash": "O6/3fr6lpGy/NwZDwfXOVsgrjO6rycD7cY6TApUfoM9JET3/S+d8APsbrjh0FSMjWwL5sV9JdwqcykFhpG8agw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gael\\Documents\\GitHub\\VSC-Stuff\\ProgramacionAvanzada\\3erParcial\\NorthWind.web\\NorthWind.web.csproj",
   "expectedPackageFiles": [
@@ -212,7 +212,11 @@
     "C:\\Users\\Gael\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Gael\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gael\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Gael\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Gael\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Gael\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

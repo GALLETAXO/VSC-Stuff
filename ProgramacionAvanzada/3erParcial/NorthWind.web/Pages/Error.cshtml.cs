@@ -17,6 +17,7 @@ public class ErrorModel : PageModel
     public ErrorModel(ILogger<ErrorModel> logger)
     {
         _logger = logger;
+        
     }
 
     public void OnGet()

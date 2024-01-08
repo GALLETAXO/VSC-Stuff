@@ -256,3 +256,4 @@ C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\3erParcial\NorthWi
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\3erParcial\NorthWind.web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\3erParcial\NorthWind.web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\3erParcial\NorthWind.web\obj\Debug\net7.0\NorthWind.web.csproj.CopyComplete
+C:\Users\Gael\Documents\GitHub\VSC-Stuff\ProgramacionAvanzada\3erParcial\NorthWind.web\obj\Debug\net7.0\NorthWind.web.sourcelink.json
